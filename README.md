@@ -21,15 +21,25 @@ An AI-powered web application that intelligently analyzes resumes using Natural 
 ## 📁 Project Structure
 
 resume-analyzer/
+
 ├── app.py # Flask app and routing
+
 ├── resume_parser.py # Core resume analysis logic
+
 ├── templates/
+
 │ └── index.html # UI for uploading resumes
+
 ├── static/
+
 │ └── style.css # CSS styling
+
 ├── utils/
+
 │ └── job_matcher.py # Optional: job role matching logic
+
 ├── sample_resumes/ # Test resumes
+
 ├── requirements.txt # Dependencies
 
 
@@ -40,40 +50,40 @@ resume-analyzer/
        ```bash
        git clone https://github.com/yourusername/resume-analyzer.git
        cd resume-analyzer
-Create Virtual Environment 
 
-    
+2. **Create Virtual Environment** 
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
-    Install Requirements
 
-    
-    pip install -r requirements.txt
-    Download spaCy Language Model
+3. **Install Requirements**
 
+   pip install -r requirements.txt
 
-    
-    python -m spacy download en_core_web_sm
-    Run the App
+4.**Download spaCy Language Model**
+
+       python -m spacy download en_core_web_sm
+
+**5.Run the App**
     
     python app.py
-    Open in Browser
 
-Visit: http://localhost:5000
+**6.Open in Browser**
 
-🧪 Example Use Cases
+       Visit: http://localhost:5000
+
+**🧪 Example Use Cases**
     HR screening automation
 
     Resume quality check and improvement suggestions
 
     Job portal integration for candidate matching
 
-📬 Supported Formats
+**📬 Supported Formats**
     .pdf
     
     .docx
 
-🙌 Acknowledgements
+**🙌 Acknowledgements**
     spaCy
     
     Flask
